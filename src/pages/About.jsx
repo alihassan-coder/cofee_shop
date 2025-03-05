@@ -37,7 +37,6 @@ function About() {
             </div>
           </div>
         </section>
-      );
 
     </div>
   )
