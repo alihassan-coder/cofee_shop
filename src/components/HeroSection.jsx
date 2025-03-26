@@ -27,13 +27,13 @@ const HeroSection = () => {
       <div className="md:w-1/2 flex justify-center mt-10 md:mt-0 relative">
         <div className="relative w-[300px] md:w-[350px] h-[300px] md:h-[350px] flex items-center justify-center">
           {/* Circular Background */}
-          <div className="absolute w-[85%] h-[85%] bg-[#3A2D25] rounded-full"></div>
+          <div className="absolute w-[90%] h-[90%] bg-[#3A2D25] rounded-full"></div>
 
           {/* Coffee Image - Perfectly Adjusted */}
           <motion.img
             src={coffeeImage}
             alt="Cappuccino"
-            className="rounded-full shadow-lg w-[90%] md:w-[100%] h-auto object-contain z-10"
+            className="  w-[90%] md:w-[100%] h-auto object-contain z-10"
             animate={{ y: [0, -10, 0] }}
             transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
           />

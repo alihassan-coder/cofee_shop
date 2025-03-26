@@ -10,18 +10,18 @@ export default function Footer() {
       >
         {/* Heading */}
         <h2 className="text-white text-2xl md:text-3xl font-bold text-center">
-          Subscribe to get 50% discount price
+          Subscribe to get <span className="text-yellow-600">50%</span> discount price
         </h2>
 
         {/* Subscription Form */}
         <div className="w-full max-w-lg mt-6">
-          <div className="flex bg-white p-2 rounded-full shadow-lg">
+          <div className="flex bg-white p-1 rounded-full shadow-lg">
             <input
               type="email"
               placeholder="Email address"
-              className="w-full px-4 py-3 text-gray-800 focus:outline-none rounded-l-full"
+              className="w-full px-4 py-1 text-gray-800 focus:outline-none rounded-l-full"
             />
-            <button className="bg-yellow-600 text-white px-6 py-3 rounded-full font-medium shadow-md hover:bg-yellow-700 transition duration-300">
+            <button className="bg-yellow-600 text-white px-3 py-1 rounded-full font-medium shadow-md hover:bg-yellow-700 transition duration-300">
               Order now
             </button>
           </div>
